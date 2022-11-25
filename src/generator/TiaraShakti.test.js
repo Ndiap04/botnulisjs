@@ -2,7 +2,7 @@ const Canvas = require('canvas');
 const fs = require('fs');
 const TiaraShakti = require('./TiaraShakti');
 
-class TiaraShaktitest extends TiaraShakti {
+class TiaraShaktiTest extends TiaraShakti {
   constructor() {
     super({ font: 'default', color: '' });
   }
