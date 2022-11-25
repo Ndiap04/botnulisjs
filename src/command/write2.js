@@ -4,7 +4,7 @@ const { teleImgCompress } = require("../lib/Util");
 
 bot.command('mager', (ctx) => {
   ctx.replyWithHTML(ctx.locale['writejs_prompt'], { disable_web_page_preview: true });
-  ctx.userCache.awaitResponse = 'write';
+  ctx.userCache.awaitResponse = 'mager';
   ctx.toMenu(ctx, true);
 });
 
