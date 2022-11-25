@@ -43,7 +43,7 @@ bot.use(async (ctx, next) => {
     bot.userCache.set(ctx.from.id, {
       awaitResponse: '',
       font: q?.font || 'default',
-      paper: q?.paper || 'big boss',
+      paper: q?.paper || 'big boss', 'images',
       color: q?.color || 'black',
       langCode: q?.langCode || 'en',
     });
