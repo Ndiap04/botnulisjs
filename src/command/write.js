@@ -2,7 +2,7 @@ const { bot } = require("../bot");
 const BigBossGenerator = require("../generator/BigBoss");
 const { teleImgCompress } = require("../lib/Util");
 
-bot.command('mager1', (ctx) => {
+bot.command('write', (ctx) => {
   ctx.replyWithHTML(ctx.locale['writejs_prompt'], { disable_web_page_preview: true });
   ctx.userCache.awaitResponse = 'write';
   ctx.toMenu(ctx, true);
