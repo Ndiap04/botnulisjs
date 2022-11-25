@@ -19,7 +19,7 @@ bot.command('paper', ctx => {
 
 const inline_keyboard = [];
 // const paperList = ['book', 'big boss', 'hvs A4', 'polio']; // upcoming features
-const paperList = ['big boss'];
+const paperList = ['big boss', 'images'];
 
 let j = 0;
 for (let i = 0; i < paperList.length; i++) {
